@@ -1,0 +1,631 @@
+#page_my_edit_kapipals .title { width: 350px; }
+#page_my_edit_kapipals .views { width: 100px; }
+#page_my_edit_kapipals .tip { display: block; font-size: 10px; margin-top: 10px; }
+#page_my_edit_kapipals .tip { color: #8C8C8C; }
+#page_my_edit_kapipals .timeleft,
+#page_my_edit_kapipals .amount { width: 150px; line-height: 1.5em; }
+#page_my_edit_kapipals .amount strong { font-size: 22px; margin-bottom: 5px; display: block; }
+.page_edit_items .contributors { color: #8C8C8C; }
+#page_my_edit_kapipals .actions { width: 50px; }
+
+#page_my_edit_kapipals .title strong,
+#page_my_edit_kapipals .amount strong { font-size: 22px; margin-bottom: 5px; display: block; }
+
+.page_edit_items #new { margin-top: 15px; padding-bottom: 15px; font-size: 16px; font-weight: bold;  border-bottom: solid 1px #C4C7CE; }
+.page_edit_items table { margin-top: 15px; border-collapse: collapse; border-width: 0px; }
+.page_edit_items table th { font-size: 22px; padding-bottom: 15px; border-bottom: solid 3px #C4C7CE; } 
+.page_edit_items table td { padding: 15px 0; border-bottom: solid 1px #C4C7CE; }
+
+.page_edit_items .restart,
+.page_edit_items .actions a { display: block; margin-bottom: 7px; font-size: 12px; }
+a { color: #2E89C2; text-decoration: none;}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #F4F5EB;
+}
+.textbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 1px solid #737373;
+}
+.whiteheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.bodytextwhite {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.heading {
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.border {
+	border: 1px solid #B7BAB4;
+}
+.bodytextblack {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.varnormal {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.varnormal1 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.varnormal2 {
+	font-family: Tahoma;
+	font-size: 9px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.footer {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #7A8180;
+	text-decoration: none;
+}
+.footerwhite {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.red {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #cc0e0e;
+	text-decoration: none;
+}
+
+
+/*category hyperlink effect gets start*/
+A.toplinkmenu {
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: normal;
+	padding-left:2;
+	text-decoration:none;
+}
+a:hover.toplinkmenu{
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #bbec51;
+	font-weight: bold;
+	padding-left:2;
+text-decoration:none;
+}
+/*category hyperlink effect gets start*/
+A.bluelink {
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0066CC;
+	font-weight: normal;
+	padding-left:2;
+	text-decoration:none;
+}
+a:hover.bluelink{
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0057AD;
+	font-weight: normal;
+	padding-left:2;
+text-decoration:none;
+}
+/*category hyperlink effect gets start*/
+A.graylink {
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #7A8180;
+	font-weight: normal;
+	padding-left:2;
+	text-decoration:none;
+}
+a:hover.graylink{
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #636968;
+	font-weight: normal;
+	padding-left:2;
+text-decoration:none;
+}
+/*category hyperlink effect gets start*/
+A.leftbarmenu {
+	font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: normal;
+	padding-left:2;
+	text-decoration:none;
+	line-height: 20px;
+}
+a:hover.leftbarmenu{
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #e8c2c2;
+	font-weight: normal;
+	padding-left:2;
+text-decoration:none;
+}
+/*category hyperlink effect gets start*/
+A.number {
+	font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0066CC;
+	font-weight: normal;
+	padding-left:2;
+	text-decoration:none;
+}
+a:hover.number{
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #174F87;
+	font-weight: normal;
+	padding-left:2;
+text-decoration:none;
+}
+input.stdButton {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #DBDEBE;
+	border: 1px solid #B7BAB4;
+}
+
+
+/*category hyperlink effect gets start*/
+A.button {
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0f226f;
+	font-weight: bold;
+	padding-left:2;
+	text-decoration:none;
+}
+a:hover.button{
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #243eab;
+	font-weight: bold;
+	padding-left:2;
+text-decoration:none;
+}
+.button {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #DBDEBE;
+	border: 1px solid #B7BAB4;
+}
+
+/*category hyperlink effect gets start*/
+A.redlink {
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #cc0e0e;
+	font-weight: bold;
+	padding-left:2;
+	text-decoration:none;
+}
+a:hover.redlink{
+font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #8f0d0d;
+	font-weight: bold;
+	padding-left:2;
+text-decoration:none;
+}
+.norepet {
+	background-repeat: repeat-x;
+}
+.border1 {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #B7BAB4;
+	border-right-color: #B7BAB4;
+	border-bottom-color: #B7BAB4;
+	border-left-color: #B7BAB4;
+}
+.bodytextgray {
+
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #545454;
+	text-decoration: none;
+}
+.bodytextblue {
+
+
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #0066CC;
+	text-decoration: none;
+}
+.heading1 {
+
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.norepet1 {
+
+	background-repeat: repeat-y;
+}
+tr.header{
+background-color:#F7F7F7;
+color			: #666666;
+font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 8.5pt;
+	font-weight		: bold;
+}
+
+tr.list_A{
+background-color:#F2F3ED;
+}
+tr.list_B{
+background-color:#E4E6D9;
+}
+
+.headTitle
+{
+	background-color:#D8DBC8;
+	font-weight:bold;
+	text-align:center;
+}
+.headTitle1
+{
+    background-color:#D8DBC8;  
+	font-weight		:bold;
+    text-align		:right;
+}
+.headTitle2
+{
+    font-weight		:bold;
+    text-align		:right;
+}
+td.fieldLabelLeft1{
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 8.5pt;
+	font-weight		: normal;
+	color			: #666666;
+	background-color: #F7F7F7;
+	padding-left	: 5px;
+	padding-top		: 2px;
+}
+
+td.fieldlabelRight{
+
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 8.5pt;
+	font-weight		: bold;
+	color			: #666666;
+	text-align		: right;
+	background-color: #F7F7F7;
+}
+td.fieldlabelRight2{
+
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 8.5pt;
+	font-weight		: bold;
+	color			: #666666;
+	background-color: #F7F7F7;
+}
+td.fieldLabelLeft2{
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 8.5pt;
+	font-weight		: normal;
+	color			: #666666;
+	background-color: #F7F7F7;
+}
+td.fieldlabelRight1{
+
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 8.5pt;
+	font-weight		: bold;
+	color			: #666666;
+	text-align		: left;
+	background-color: #F7F7F7;
+}
+td.fieldLabelLeft{
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 8.5pt;
+	font-weight		: normal;
+	color			: #666666;
+	text-align		: left;
+	background-color: #F7F7F7;
+	padding-left	: 5px;
+	padding-top		: 2px;
+}
+td.fieldLabelCenter{
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 8.5pt;
+	font-weight		: normal;
+	color			: #666666;
+	text-align		: center;
+	background-color: #F7F7F7;
+	padding-left	: 5px;
+	padding-top		: 2px;
+}
+
+
+/*  class for paginations */
+.pageLink, td.pageLink{
+	font-size 		: 8pt;
+	color 			: #0066CC;
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-weight		: normal;
+}
+a.pageLink:link   	{ text-decoration: none; color : #0066CC; }
+a.pageLink:visited 	{ text-decoration: none; color : #0066CC; }
+a.pageLink:hover	{ text-decoration: underline; color : #174F87; }
+
+.activePage{
+	font-size 		: 8pt;
+	color 			: #cc0e0e;
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-weight		: bold;
+}
+.disabledText
+{
+	font-size 		: 8pt;
+	color 			: #000000font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-weight		: normal;
+}/*  class for paginations */
+
+
+.successMsg {
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 8pt;
+	font-weight		: normal;
+	color			: #FF6600;
+}
+
+.actionLink, td.actionLink{
+	font-size 		: 8pt;
+	color 			: #000000;
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-weight		: normal;
+}
+a.actionLink:link   	{ text-decoration: none; color : #000000; }
+a.actionLink:visited 	{ text-decoration: none; color : #000000; }
+a.actionLink:hover		{ text-decoration: underline; color : #999999; }
+
+
+.FieldLink, td.FieldLink{
+	font-size 		: 9pt;
+	color 			: #000000;
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-weight		: bold;
+}
+a.FieldLink:link   		{ text-decoration: none; color : #000000; }
+a.FieldLink:visited 	{ text-decoration: none; color : #000000; }
+a.FieldLink:hover		{ text-decoration: underline; color : #999999; }
+
+
+table.stdTableBorder {
+	border			: 2px solid #D8DBC8;
+}
+
+.pagetitle  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	font-weight: bold;
+	padding-left:10;
+	background-color:#D8DBC8;
+}
+
+
+
+
+/**************
+CSS FOR MENU IN HEADER 
+
+STARTS FROM HERE
+==============*/
+
+/* ######### Style for Tab Interface itself ######### */
+
+.shadetabs{
+border-bottom: 1px solid #EFF0E8;
+margin-bottom: 1em;
+}
+
+.shadetabs ul{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+text-decoration: none;
+padding: 3px 7px;
+margin-right: 3px;
+/* border: 1px solid #778;*/
+color: #2d2b2b;
+background: url(templates/img/shade.gif) top left repeat-x; /*THEME CHANGE HERE*/
+}
+
+.shadetabs li a:visited{
+color: #2d2b2b;
+}
+
+.shadetabs li a:hover{
+text-decoration: underline;
+color: #2d2b2b;
+}
+
+.shadetabs li.selected{
+}
+
+.shadetabs li.selected a{ /*selected main tab style */
+background-image: url(templates/img/imgshadeactive.gif); /*THEME CHANGE HERE*/
+border-bottom-color: white;
+}
+
+.shadetabs li.selected a:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+border: 1px solid #918d8d; /*THEME CHANGE HERE*/
+border-width: 0 1px;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color: #F0F1E9;
+width: 200px;
+visibility: hidden;
+}
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #918d8d; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #D8DBC8;
+}
+
+
+
+/* another try */
+
+.shadetabs1{
+border-bottom: 1px solid #EFF0E8;
+margin-bottom: 1em;
+}
+
+.shadetabs1 ul{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs1 li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs1 li a{
+text-decoration: none;
+padding: 3px 7px;
+margin-right: 3px;
+/* border: 1px solid #778;*/
+color: #2d2b2b;
+background: url(templates/img/shade.gif) top left repeat-x; /*THEME CHANGE HERE*/
+}
+
+.shadetabs1 li a:visited{
+color: #2d2b2b;
+}
+
+.shadetabs1 li a:hover{
+text-decoration: underline;
+color: #2d2b2b;
+}
+
+.shadetabs1 li.selected{
+}
+
+.shadetabs1 li.selected a{ /*selected main tab style */
+background-image: url(templates/img/imgshadeactive.gif); /*THEME CHANGE HERE*/
+border-bottom-color: white;
+}
+
+.shadetabs1 li.selected a:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+
+/**************
+CSS FOR MENU IN HEADER 
+
+ENDS HERE
+==============*/
+input.stdCheckBox {
+   	border			: 0 solid #737373;
+}
+
+.textbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 1px solid #737373;
+}

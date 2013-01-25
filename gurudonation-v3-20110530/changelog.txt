@@ -1,0 +1,33 @@
+P#2011-03-19
+* changed in new.php uploadcatepicture to uploadpicture
+P#2011-04-15
+* changed learn more page new images, new text
+P#2011-04-14
+* included in func.php newcate function
+P#2011-04-11
+* changed ipn.php and donate.php, the comment now is a custom field, and response from paypal is took over by ipn.php and inserted into donations
+* changed withdraw.php addressing issue regarding fixed and percent commission.
+P#2011-04-27
+* changed in new.php including before amount and minimum amont the $ sign
+* changed in guru.css the width of the textbox to 180 from 120
+* changed in includes/init.php to create the new categories
+* changed in includes/database.php the creating of categories sql
+* changed in new.php from include_once("lincludes/linkmysql.php"); to include_once("includes/linkmysql.php");
+P#2011-04-28
+* created folder admin/uploads/ for uploading category images
+P#2011-04-29
+* changed in editproject to reflect the categories
+M#2011-04-29
+* changed template
+P#2011-05-14
+* changed in new.php charcatercounter and uploaded to archive
+* removed from includes/createdb.php when creating table the avatar value, as in includes/func.php at newuser it is not included
+P#2011-05-16
+* sql injections limited, all the variables are parser via mysql_real_escape_string before any select, insert, delete statement
+* includes/func.php image upload extensions limited to .jpg, .gif, .png, if not the script will simply die, this is a good way of handling not allowed file uploads
+P#2011-05-20
+* changed donate.php to go directly to paypal and not sandbox
+P#2011-05-21
+* changed includes/func.php guru_decrypt salt, admin/loginadminprocess.php to correctly decrypt file
+P#2011-05-30
+* changed index.php and kapipalinfo.php in order to randomize the front page projects.

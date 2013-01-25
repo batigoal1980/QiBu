@@ -1,0 +1,8 @@
+1. Create a new mysql user and database
+2. Extract the archive in your public_html folder
+3. Change permissions to 777 for folders uploads and captcha
+4. Open up in your browser http://yourdomain/install/ follow the steps for install 
+5. For admin access open up http://yourdomain/admin/loginadmin.php with username admin and password you have provided. 
+6. All set up
+
+If you need any help, please visit http://www.guruscript.com/support page.

@@ -1,0 +1,60 @@
+-admin
+user: admin
+password: demo
+
+-Brief Introduction of features
+1) Easy User Registration.
+2) Posting of kapipals for free
+2) Support multiple social networking sites
+4) Simple donating system
+
+- Features Details
+
+GuruDonation is inspired by kapipal.com and has almost all features of the original Kapipal.com.
+User can post his own kapipals for free and can get gifts from his/her references.
+GuruDonation is for anyone who wants to launch a donation site.
+As a wonderful place to donate someone, GuruDonation's recommended.
+
+	Process is as follows
+		Users post their kapipals for earning money for free.
+		He shares his kapipal with his references using multiple social networking sites like facebook.com, twitter.com,...
+		His references visit the kapipal url and donate him.
+		He then sends withdrawal request to the donation site.
+		He'll receive payment within 24 hours.
+		
+	Key Features that make GuruDonation special:
+
+		Add, edit, delete users
+		Easy posting kapipals for free
+		Kapipal owner can easily manage his/her kapipals(Add/Edit/View/Delete)
+		Multiple social networking sites(Facebook,twitter,...) integrated
+		Donating system
+
+		Admin configured fees
+		View, edit, add, delete users.
+		Manage kapipals(Add/Edit/Delete/View)
+		Search Users based on his name, email and paypal id.
+		Search kapipals based on various attributes.
+		Edit general website settings.
+		Easy reconstruction of website.
+
+-Features Chart
+
+	Unlimited Users
+	Unlimited Donations
+	Integrated Paypal IPN
+	Search for users and donations
+	Integration with multiple social networking sites
+	Browser Friendly
+	
+	
+
+- Server Requirement
+
+	GuruFiverr is based on Linux/Php/Mysql. The minimum server requirements are: 
+		PHP 5.2.0 (or Higher)
+		Linux Server
+		MySQL 4.2 (or Higher)
+		Mod_rewrite function.
+
+	
